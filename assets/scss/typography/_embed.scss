@@ -1,0 +1,59 @@
+$font-primary: (
+	font-family: (
+		Quicksand,
+		serif
+	),
+	load: true,
+	weights: (
+		'Light': 100,
+		'Regular': 400,
+		'Medium': 500,
+		'Bold': 600
+	),
+	path: '~/fonts',
+	files: (
+		'woff2',
+		'ttf',
+		'eot'
+	),
+	use: (
+		'body',
+		'p',
+		'a',
+		'ul',
+		'li'
+	),
+	types: (
+		'normal'
+	)
+);
+$font-secondary: (
+	font-family: (
+		Righteous,
+		serif
+	),
+	load: true,
+	weights: (
+		// 'Light': 100,
+			'Regular': 400,
+		// 'Medium': 500,
+			// 'Bold': 600
+	),
+	path: '~/fonts',
+	files: (
+		'woff2',
+		'ttf',
+		'eot'
+	),
+	use: (
+		'h1',
+		'h2',
+		'h3',
+		'h4',
+		'h5',
+		'h6'
+	),
+	types: (
+		'normal'
+	)
+);

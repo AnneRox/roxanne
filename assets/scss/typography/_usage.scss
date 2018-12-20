@@ -1,0 +1,65 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+	color: color(Red);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-transform: uppercase;
+	// &.sub {
+	//   font-weight: 400;
+	// }
+}
+
+a {
+	text-decoration: none;
+	&.textlink {
+		position: relative;
+		&:after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: rem(4);
+			display: inline-block;
+			background-color: color(Red);
+			bottom: rem(2);
+			left: 0;
+			opacity: 0.2;
+			transition: ease 0.3s;
+		}
+		&:hover {
+			&:after {
+				height: calc(100% + -4px);
+				transition: ease 0.3s;
+			}
+		}
+	}
+}
+
+p,
+a,
+ul,
+li {
+	line-height: 2;
+	font-size: rem(14);
+	font-weight: 500;
+	letter-spacing: rem(1);
+}
+
+h6 {
+	font-size: rem(10);
+	letter-spacing: rem(4);
+	opacity: 0.3;
+}

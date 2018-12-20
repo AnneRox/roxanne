@@ -1,0 +1,30 @@
+// Basics
+@import 'tools/pre';
+@import 'typography/embed';
+
+// Define output settings for project
+$output: set-output(css, true);
+
+// Output the whole framework
+@import '~henris';
+
+// Defined settings
+@import 'tools/post';
+
+// Theme
+@import 'typography/typography';
+@import 'components/index';
+
+body,
+html {
+	background-color: color(Pink);
+}
+
+.page-enter-active,
+.page-leave-active {
+	transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-active {
+	opacity: 0;
+}
