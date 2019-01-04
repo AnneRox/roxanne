@@ -17,16 +17,16 @@
 	align-items: center;
 	&__content {
 		width: grid(6);
-		margin-left: grid(3);
+		margin-left: grid(6);
 	}
 	&__img {
 		height: 100vh;
 		width: grid(12);
-		margin-left: grid(3);
+		margin-left: grid(0);
 		background-image: url('~/images/Rox.png');
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 	}
 }
 </style>

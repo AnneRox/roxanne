@@ -1,6 +1,7 @@
 <template>
 	<section class="project">
 		<div class="project__content">
+			<nuxt-link class="" to="/">Terug</nuxt-link>
 			<h1>project</h1>
 		</div>
 	</section>

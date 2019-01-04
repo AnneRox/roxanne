@@ -1,7 +1,6 @@
 <template>
 	<section class="about">
 		<div class="about__content">
-			<h1>About</h1>
 
 			<ul>
 				<h5>Education</h5>
@@ -38,13 +37,6 @@
 <style lang="scss">
 @import '~tools';
 .about {
-	h1,
-	li {
-		color: color(Blue);
-	}
-	height: 100vh;
-	display: flex;
-	align-items: center;
 	&__content {
 		width: grid(6);
 		margin-left: grid(4);
