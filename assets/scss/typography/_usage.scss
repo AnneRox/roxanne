@@ -8,7 +8,8 @@ p,
 a,
 ul,
 li {
-	color: color(White);
+	color: color(Black);
+	font-weight: 400;
 }
 
 h1,
@@ -17,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-	text-transform: uppercase;
+	// text-transform: uppercase;
 	// &.sub {
 	//   font-weight: 400;
 	// }
@@ -27,22 +28,27 @@ a {
 	text-decoration: none;
 	&.textlink {
 		position: relative;
+		width: 100%;
+		.textlink__text {
+			z-index: 10;
+			position: relative;
+		}
 		&:after {
 			content: '';
-			position: absolute;
+			height: 100%;
 			width: 100%;
-			height: rem(4);
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			background-color: color(Pink);
 			display: inline-block;
-			background-color: color(Red);
-			bottom: rem(2);
-			left: 0;
-			opacity: 0.2;
-			transition: ease 0.3s;
+			z-index: 0;
+			transition: 0.3s ease;
 		}
 		&:hover {
 			&:after {
-				height: calc(100% + -4px);
-				transition: ease 0.3s;
+				height: 2px;
+				transition: 0.3s ease;
 			}
 		}
 	}
@@ -52,8 +58,7 @@ p,
 a,
 ul,
 li {
-	line-height: 2;
-	font-size: rem(14);
-	font-weight: 500;
-	letter-spacing: rem(1);
+	line-height: 1.5;
+	font-size: rem(18);
+	font-weight: 400;
 }

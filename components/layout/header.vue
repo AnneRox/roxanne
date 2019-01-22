@@ -1,18 +1,54 @@
 <template>
 	<header id="header" class="header">
-		<!-- <nav>
-			<nuxt-link class="button button__home" to="/">Portfolio</nuxt-link>
-			<nuxt-link class="button button__about" to="/about">About</nuxt-link>
-			<nuxt-link class="button button__work" to="/work">Work</nuxt-link>
-		</nav> -->
-		<nav>
-			<nuxt-link class="button button__home" to="/">Roxanne</nuxt-link>
-			<a class="button button__linkedIn" target="_blank" href="https://www.linkedin.com/in/roxannevandenaakster/">LinkedIn</a>
-		</nav>
-
-
+		<div class="header__img" />
+		<div class="header__name">
+			<p>Roxanne van den Aakster</p>
+		</div>
 	</header>
 </template>
+
+
+<style lang="scss">
+@import '~tools';
+
+#header {
+	position: fixed;
+	display: flex;
+	transition: 0.3s ease;
+	&:hover {
+		.header__img {
+			transform: scale(1.1);
+			transition: 0.3s ease;
+		}
+		.header__name {
+			opacity: 1;
+			transition: 0.3s ease;
+		}
+	}
+	.header {
+		&__img {
+			height: rem(100);
+			width: rem(100);
+			background-image: url('~/images/Rox.png');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			transition: 0.3s ease;
+		}
+		&__name {
+			padding: rem(20);
+			display: flex;
+			align-items: center;
+			opacity: 0.2;
+			transition: 0.3s ease;
+			p {
+				font-size: rem(14);
+			}
+		}
+	}
+}
+</style>
+
 
 <script>
 import axios from 'axios';
@@ -38,34 +74,3 @@ export default {
 	}
 };
 </script>
-
-<style lang="scss">
-@import '~tools';
-
-#header {
-	position: relative;
-	background-color: color(White);
-	width: rem(80);
-	height: 100vh;
-	position: fixed;
-	nav {
-		a.button {
-			position: relative;
-			text-transform: uppercase;
-			font-size: rem(12);
-			letter-spacing: rem(4);
-			color: color(Black);
-			&__home {
-				position: absolute;
-				top: grid(1);
-				transform: rotate(-90deg);
-			}
-			&__linkedIn {
-				position: absolute;
-				bottom: grid(1);
-				transform: rotate(-90deg);
-			}
-		}
-	}
-}
-</style>

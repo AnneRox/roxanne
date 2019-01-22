@@ -1,14 +1,14 @@
 $font-primary: (
 	font-family: (
-		Quicksand,
+		Theinhardt,
 		serif
 	),
 	load: true,
 	weights: (
-		'Light': 100,
-		'Regular': 400,
+		// 'Light': 100,
+			'Regular': 400,
 		'Medium': 500,
-		'Bold': 600
+		// 'Bold': 600
 	),
 	path: '~/fonts',
 	files: (
@@ -29,15 +29,15 @@ $font-primary: (
 );
 $font-secondary: (
 	font-family: (
-		Righteous,
+		SuisseIntl,
 		serif
 	),
 	load: true,
 	weights: (
 		// 'Light': 100,
-			'Regular': 400,
-		// 'Medium': 500,
-			// 'Bold': 600
+			// 'Regular': 400,
+			'SemiBold': 300,
+		// 'Bold': 600
 	),
 	path: '~/fonts',
 	files: (
