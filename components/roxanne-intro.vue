@@ -1,9 +1,5 @@
 <template>
 	<section class="intro">
-		<!-- <div class="intro__img">
-			<div class="imageHolder" />
-			<h6>Roxanne van den Aakster</h6>
-		</div> -->
 		<div class="row intro__content">
 			<h1>Digital designer &amp; web developer</h1>
 			<p>Currently working at
@@ -17,35 +13,8 @@
 <style lang="scss">
 @import '~tools';
 .intro {
-	padding: grid(1 0);
-	// &__img {
-	// 	display: flex;
-	// 	align-items: center;
-	// 	position: fixed;
-	// 	h6 {
-	// 		padding: rem(20 40);
-	// 		margin-top: rem(-10);
-	// 		margin-left: rem(-15);
-	// 		background-color: color(Black);
-	// 		color: color(White);
-	// 		font-size: rem(12);
-	// 	}
-	// 	.imageHolder {
-	// 		margin-left: grid(1);
-	// 		height: rem(180);
-	// 		width: rem(180);
-	// 		border-radius: rem(90);
-	// 		background-image: url('~/images/Rox.png');
-	// 		background-position: center;
-	// 		background-repeat: no-repeat;
-	// 		background-size: cover;
-	// 		transition: 0.3s ease;
-	// 		&:hover {
-	// 			transform: scale(1.1);
-	// 			transition: 0.3s ease;
-	// 		}
-	// 	}
-	// }
+	background-color: color(Blue);
+	padding: grid(2.5 0 2 0);
 	&__content {
 		width: grid(10);
 		margin-left: grid(8);

@@ -54,23 +54,9 @@
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				background-color: grey;
-				// background-image: url('~/images/Scholtens.png');
+				background-image: url('~/images/Scholtens.png');
 			}
 		}
-
-		// &__project2 {
-		// 	background-color: silver;
-		// 	height: grid(6);
-		// 	width: 50%;
-		// 	position: relative;
-		// }
-		// &__project3 {
-		// 	background-color: dimgray;
-		// 	height: grid(6);
-		// 	width: 50%;
-		// 	position: relative;
-		// }
 	}
 }
 </style>

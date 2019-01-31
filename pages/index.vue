@@ -4,6 +4,8 @@
 		<roxanneIntro />
 		<roxanneAbout />
 		<roxanneWork />
+		<roxanneWireframes />
+
 	</main>
 
 </template>
@@ -12,28 +14,17 @@
 import roxanneIntro from '~/components/roxanne-intro.vue';
 import roxanneAbout from '~/components/roxanne-about.vue';
 import roxanneWork from '~/components/roxanne-work.vue';
+import roxanneWireframes from '~/components/roxanne-wireframes.vue';
 export default {
 	components: {
 		roxanneIntro,
 		roxanneAbout,
-		roxanneWork
+		roxanneWork,
+		roxanneWireframes
 	}
 };
 </script>
 
 <style lang="scss">
 @import '~tools';
-
-.page {
-	// general page styles
-	&--intro {
-		// page home styles
-	}
-	&--about {
-		// page home styles
-	}
-	&--work {
-		// page home styles
-	}
-}
 </style>

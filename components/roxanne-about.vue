@@ -38,6 +38,7 @@
 <style lang="scss">
 @import '~tools';
 .about {
+	padding: grid(1 0);
 	&__content {
 		width: grid(10);
 		margin-left: grid(8);
