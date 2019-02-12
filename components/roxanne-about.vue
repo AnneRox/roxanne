@@ -1,25 +1,9 @@
 <template>
 	<section class="about">
 		<div class="about__content">
-
-			<ul class="about__content--specialized">
-				<h5>Specialized in</h5>
-				<li>Branding</li>
-				<li>UX &amp; UI</li>
-				<li>Micro interaction</li>
-				<li>Animated prototype</li>
-				<li>Frontend</li>
-			</ul>
-
-			<ul class="about__content--education">
-				<h5>Education</h5>
-				<li>Grafisch Vormgeving MBO - Media College amsterdam</li>
-				<li>Communication and Multimedia HBO - Hogeschool van Amsterdam</li>
-			</ul>
-
-
+			<h2>Skills &amp; Tools</h2>
+			<p>And I'm always learning more!</p>
 			<ul class="about__content--skilss">
-				<h5>Skilss</h5>
 				<li>Photoshop</li>
 				<li>Illustrator</li>
 				<li>Indesign</li>
@@ -28,28 +12,39 @@
 				<li>Zeplin</li>
 				<li>Principle</li>
 				<li>Html5</li>
-				<li>SCCS</li>
+				<li>SCSS</li>
+				<li>SASS</li>
+				<li>BEM</li>
 				<li>Vue</li>
 			</ul>
-
 		</div>
 </section></template>
 
 <style lang="scss">
 @import '~tools';
 .about {
-	padding: grid(1 0);
+	padding: grid(2 0);
 	&__content {
-		width: grid(10);
-		margin-left: grid(8);
-		&--specialized {
-			background-color: red;
-		}
-		&--education {
-			background-color: green;
-		}
+		width: grid(12);
+		margin-left: grid(6);
+
 		&--skilss {
-			background-color: blue;
+			display: flex;
+			flex-wrap: wrap;
+			li {
+				font-size: 12px;
+				text-transform: uppercase;
+				font-weight: 500;
+				height: rem(140);
+				width: rem(140);
+				margin: rem(10);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-image: url('~/images/skilBox.png');
+				background-size: contain;
+				background-repeat: no-repeat;
+			}
 		}
 	}
 }

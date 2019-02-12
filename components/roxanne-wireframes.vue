@@ -15,17 +15,19 @@
 	padding: grid(2 0 0 0);
 	background-color: color(Red);
 	.layout {
-		text-align: center;
+		// text-align: center;
 		&__textHolder {
-			padding: grid(0.5);
+			margin-left: grid(6);
+			padding: grid(0.5 0);
 		}
 		&__image {
-			width: grid(24);
-			height: grid(8);
+			width: grid(20);
+			height: grid(6);
 			position: relative;
+			margin: auto;
 			background-position: center;
 			background-repeat: no-repeat;
-			background-size: cover;
+			background-size: contain;
 			background-image: url('~/images/wireframes.png');
 		}
 	}

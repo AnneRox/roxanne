@@ -5,10 +5,8 @@ $font-primary: (
 	),
 	load: true,
 	weights: (
-		// 'Light': 100,
-			'Regular': 400,
-		'Medium': 500,
-		// 'Bold': 600
+		'Regular': 400,
+		'Medium': 500
 	),
 	path: '~/fonts',
 	files: (
@@ -34,10 +32,7 @@ $font-secondary: (
 	),
 	load: true,
 	weights: (
-		// 'Light': 100,
-			// 'Regular': 400,
-			'SemiBold': 300,
-		// 'Bold': 600
+		'SemiBold': 300
 	),
 	path: '~/fonts',
 	files: (

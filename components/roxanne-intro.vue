@@ -6,19 +6,30 @@
 				<a class="textlink" target="_blank" href="http://www.matise.nl">
 					<span class="textlink__text">Matise</span>
 				</a> located in Amsterdam.
-				With a background in Graphic Design, my strength lies in webdesign and app design.</p>
+				I have a background in graphic design but my strength lies in digital design.</p>
+			<p>I am specialized in branding, UX, UI, micro interaction, animated prototype and frontend.</p>
+			<p>
+				<a class="textlink" target="_blank" href="http://www.matise.nl">
+					<span class="textlink__text">Dribble</span>
+				</a>
+				<a class="textlink" target="_blank" href="http://www.matise.nl">
+					<span class="textlink__text">LinkedIn</span>
+				</a>
+			</p>
 		</div>
 </section></template>
 
 <style lang="scss">
 @import '~tools';
 .intro {
-	background-color: color(Blue);
-	padding: grid(2.5 0 2 0);
+	padding: grid(2 0 0 0);
 	&__content {
-		width: grid(10);
-		margin-left: grid(8);
+		width: grid(12);
+		margin-left: grid(6);
 		padding: grid(0.5 0);
+		ul {
+			display: flex;
+		}
 	}
 }
 </style>

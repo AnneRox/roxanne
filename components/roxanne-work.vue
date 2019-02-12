@@ -1,27 +1,30 @@
 <template>
 	<section class="work">
+		<div class="row work__content">
+			<h2>Work</h2>
+		</div>
 		<div class="layout">
-			<div class="container scholtens">
+			<!-- <div class="container scholtens">
 				<div class="container__image scholtens" />
 				<div class="container__textHolder">
 					<h6>Scholtens werkplek</h6>
 					<p>In opdracht van matise heb ik een design gemaakt voor de webshop scholtenswerkplek.nl</p>
 				</div>
-			</div>
-			<div class="container">
+			</div> -->
+			<!-- <div class="container">
 				<div class="containter__image" />
 				<div class="container__textHolder">
 					<h6>Wereldvrede</h6>
 					<p>In opdracht van matise heb ik een geholpen met het design voor wereldvrede website en popup winkel</p>
 				</div>
-			</div>
-			<div class="container">
+			</div> -->
+			<!-- <div class="container">
 				<div class="containter__image" />
 				<div class="container__textHolder">
 					<h6>Ticket Chaser</h6>
 					<p>In opdracht van matise heb ik een geholpen met het design voor wereldvrede website en popup winkel</p>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 </template>
@@ -30,6 +33,12 @@
 @import '~tools';
 .work {
 	padding: grid(2 0);
+	padding: grid(2.5 0 2 0);
+	&__content {
+		width: grid(12);
+		margin-left: grid(6);
+		padding: grid(0.5 0);
+	}
 	.layout {
 		display: inline-flex;
 		flex-wrap: wrap;
