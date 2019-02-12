@@ -1,5 +1,8 @@
 <template>
 	<header id="header" class="header">
+		<div class="label">
+			<p>Wip</p>
+		</div>
 		<div class="header__img" />
 		<div class="row header__content">
 			<p>Roxanne van den Aakster</p>
@@ -16,9 +19,24 @@
 	position: relative;
 	top: rem(100);
 	left: rem(100);
+	.label {
+		position: absolute;
+		top: rem(-80);
+		left: rem(-80);
 
+		p {
+			background-color: color(Red);
+			font-size: rem(12);
+			font-weight: 500;
+			text-transform: uppercase;
+			padding: rem(5 10);
+			border-radius: 2px;
+			color: color(White);
+		}
+	}
 	.header {
 		position: relative;
+
 		&__content {
 			p {
 				position: absolute;
