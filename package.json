@@ -4,6 +4,9 @@
 	"description": "My mathematical Matise Nuxt.js project",
 	"author": "Roxanne",
 	"private": true,
+	"engines": {
+		"node": "^10"
+	},
 	"scripts": {
 		"generate": "nuxt generate",
 		"dev": "sh scripts/dev.sh",
