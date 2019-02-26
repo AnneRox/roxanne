@@ -3,10 +3,10 @@
 		<div class="label">
 			<p>Wip</p>
 		</div>
-		<div class="header__img" />
+		<!-- <div class="header__img" />
 		<div class="row header__content">
 			<p>Roxanne van den Aakster</p>
-		</div>
+		</div> -->
 
 	</header>
 </template>

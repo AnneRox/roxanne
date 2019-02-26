@@ -8,20 +8,17 @@ p,
 a,
 ul,
 li {
-	color: color(Black);
+	color: color(offWhite);
 	font-weight: 400;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	// text-transform: uppercase;
-	// &.sub {
-	//   font-weight: 400;
-	// }
+p,
+a,
+ul,
+li {
+	line-height: 1.5;
+	font-size: rem(18);
+	font-weight: 400;
 }
 
 a {
@@ -35,30 +32,24 @@ a {
 		}
 		&:after {
 			content: '';
-			height: 100%;
+			height: rem(2);
 			width: 100%;
 			position: absolute;
 			bottom: 0px;
 			left: 0px;
-			background-color: color(Pink);
+			background-color: color(offWhite);
 			display: inline-block;
 			z-index: 0;
 			transition: 0.3s ease;
 		}
 		&:hover {
+			color: color(Blue);
+			transition: 0.3s ease;
+
 			&:after {
-				height: 2px;
+				height: 100%;
 				transition: 0.3s ease;
 			}
 		}
 	}
-}
-
-p,
-a,
-ul,
-li {
-	line-height: 1.5;
-	font-size: rem(18);
-	font-weight: 400;
 }

@@ -17,14 +17,5 @@ $output: set-output(css, true);
 
 body,
 html {
-	background-color: color(offWhite);
-}
-
-.page-enter-active,
-.page-leave-active {
-	transition: opacity 0.5s;
-}
-.page-enter,
-.page-leave-active {
-	opacity: 0;
+	background-color: color(Blue);
 }

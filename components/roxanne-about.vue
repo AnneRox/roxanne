@@ -33,15 +33,18 @@
 			flex-wrap: wrap;
 			li {
 				font-size: 12px;
-				text-transform: uppercase;
+				// text-transform: uppercase;
+				color: color(Black);
 				font-weight: 500;
 				height: rem(140);
+				border-radius: 70px;
+				border: solid 2px color(Black, 0.25);
 				width: rem(140);
 				margin: rem(10);
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				background-image: url('~/images/skilBox.png');
+				// background-image: url('~/images/skilBox.png');
 				background-size: contain;
 				background-repeat: no-repeat;
 			}

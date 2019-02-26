@@ -13,7 +13,5 @@ export default {};
 
 // Footer styles
 .footer {
-	padding: 2rem;
-	text-align: center;
 }
 </style>

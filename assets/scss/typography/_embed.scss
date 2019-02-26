@@ -1,12 +1,14 @@
 $font-primary: (
 	font-family: (
-		Theinhardt,
+		Inter,
 		serif
 	),
 	load: true,
 	weights: (
 		'Regular': 400,
-		'Medium': 500
+		'Medium': 500,
+		'SemiBold': 600,
+		'Black': 700
 	),
 	path: '~/fonts',
 	files: (
@@ -19,28 +21,7 @@ $font-primary: (
 		'p',
 		'a',
 		'ul',
-		'li'
-	),
-	types: (
-		'normal'
-	)
-);
-$font-secondary: (
-	font-family: (
-		SuisseIntl,
-		serif
-	),
-	load: true,
-	weights: (
-		'SemiBold': 300
-	),
-	path: '~/fonts',
-	files: (
-		'woff2',
-		'ttf',
-		'eot'
-	),
-	use: (
+		'li',
 		'h1',
 		'h2',
 		'h3',
@@ -52,3 +33,30 @@ $font-secondary: (
 		'normal'
 	)
 );
+// $font-secondary: (
+// 	font-family: (
+// 		SuisseIntl,
+// 		serif
+// 	),
+// 	load: true,
+// 	weights: (
+// 		'SemiBold': 300
+// 	),
+// 	path: '~/fonts',
+// 	files: (
+// 		'woff2',
+// 		'ttf',
+// 		'eot'
+// 	),
+// 	use: (
+// 		'h1',
+// 		'h2',
+// 		'h3',
+// 		'h4',
+// 		'h5',
+// 		'h6'
+// 	),
+// 	types: (
+// 		'normal'
+// 	)
+// );

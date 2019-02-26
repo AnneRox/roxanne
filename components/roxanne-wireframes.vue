@@ -13,7 +13,6 @@
 @import '~tools';
 .wireframe {
 	padding: grid(2 0 0 0);
-	background-color: color(Red);
 	.layout {
 		// text-align: center;
 		&__textHolder {
