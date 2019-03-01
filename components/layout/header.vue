@@ -3,11 +3,10 @@
 		<div class="label">
 			<p>Wip</p>
 		</div>
-		<!-- <div class="header__img" />
-		<div class="row header__content">
-			<p>Roxanne van den Aakster</p>
-		</div> -->
-
+		<div class="content">
+			<div class="hello" />
+			<h5>Roxanne </h5>
+		</div>
 	</header>
 </template>
 
@@ -23,7 +22,6 @@
 		position: absolute;
 		top: rem(-80);
 		left: rem(-80);
-
 		p {
 			background-color: color(Red);
 			font-size: rem(12);
@@ -34,30 +32,30 @@
 			color: color(White);
 		}
 	}
-	.header {
-		position: relative;
-
-		&__content {
-			p {
-				position: absolute;
-				top: rem(180);
-				left: rem(-30);
-				font-size: rem(12);
-				font-weight: 500;
-				text-transform: uppercase;
-				transform: rotate(90deg);
-			}
-		}
-		&__img {
+	&.header {
+		.content {
 			position: absolute;
 			display: flex;
-			height: rem(100);
-			width: rem(100);
-			border-radius: rem(50);
-			background-image: url('~/images/Rox.png');
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
+			cursor: pointer;
+			.hello {
+				transition: ease 0.2s;
+				height: 40px;
+				width: 40px;
+				margin-right: rem(10);
+				background-image: url('~/images/hello.png');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+			h5 {
+				margin: 0;
+			}
+			&:hover {
+				.hello {
+					transform: rotate(40deg);
+					transition: ease 0.2s;
+				}
+			}
 		}
 	}
 }

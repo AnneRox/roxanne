@@ -8,10 +8,10 @@
 				</a> located in Amsterdam.
 				I have a background in graphic design but my strength lies in digital design.</p>
 			<p>
-				<a class="textlink" target="_blank" href="http://www.matise.nl">
+				<a class="textlink" target="_blank" href="https://dribbble.com/AnneRox">
 					<span class="textlink__text">Dribble</span>
 				</a>
-				<a class="textlink" target="_blank" href="http://www.matise.nl">
+				<a class="textlink" target="_blank" href="https://www.linkedin.com/in/roxannevandenaakster/">
 					<span class="textlink__text">LinkedIn</span>
 				</a>
 			</p>
