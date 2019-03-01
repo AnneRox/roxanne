@@ -23,7 +23,7 @@
 <style lang="scss">
 @import '~tools';
 .about {
-	padding: grid(2 0);
+	padding: grid(2 0 0 0);
 	&__content {
 		width: grid(12);
 		margin-left: grid(6);
@@ -33,7 +33,6 @@
 			flex-wrap: wrap;
 			li {
 				font-size: 12px;
-				// text-transform: uppercase;
 				color: color(Black);
 				font-weight: 500;
 				height: rem(140);
@@ -44,7 +43,6 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				// background-image: url('~/images/skilBox.png');
 				background-size: contain;
 				background-repeat: no-repeat;
 			}
