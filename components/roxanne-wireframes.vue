@@ -3,7 +3,7 @@
 		<div class="layout">
 			<div class="layout__textHolder">
 				<h2>Clever UX design</h2>
-				<p>I create dynamic prototypes and user experiences for web</p>
+				<p>I create dynamic prototypes and user experiences for web.</p>
 			</div>
 			<div class="layout__image" />
 	</div></section>

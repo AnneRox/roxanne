@@ -2,8 +2,8 @@
 	<section class="work">
 		<div class="layout">
 			<div class="layout__textHolder">
-				<h2>Clever animations</h2>
-				<p>I create animations to explain static designs and micro interactions</p>
+				<h2>Work</h2>
+				<p>I create designs and animations to explain the static designs.</p>
 			</div>
 		</div>
 		<div class="layout">
