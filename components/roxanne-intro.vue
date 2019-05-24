@@ -6,7 +6,7 @@
 				<a class="textlink" target="_blank" href="http://www.matise.nl">
 					<span class="textlink__text">Matise</span>
 				</a> located in Amsterdam.
-				I have a background in graphic design but my strength lies in digital design.</p>
+				I have a background in graphic design but my strength lies in branded digital design.</p>
 			<p>
 				<a class="textlink" target="_blank" href="https://dribbble.com/AnneRox">
 					<span class="textlink__text">Dribble</span>
