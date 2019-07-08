@@ -21,6 +21,7 @@ $font-primary: (
 		'body',
 		'p',
 		'a',
+		'ol',
 		'ul',
 		'li',
 		'h1',
@@ -34,30 +35,3 @@ $font-primary: (
 		'normal'
 	)
 );
-// $font-secondary: (
-// 	font-family: (
-// 		SuisseIntl,
-// 		serif
-// 	),
-// 	load: true,
-// 	weights: (
-// 		'SemiBold': 300
-// 	),
-// 	path: '~/fonts',
-// 	files: (
-// 		'woff2',
-// 		'ttf',
-// 		'eot'
-// 	),
-// 	use: (
-// 		'h1',
-// 		'h2',
-// 		'h3',
-// 		'h4',
-// 		'h5',
-// 		'h6'
-// 	),
-// 	types: (
-// 		'normal'
-// 	)
-// );

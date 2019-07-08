@@ -8,7 +8,7 @@ p,
 a,
 ul,
 li {
-	color: color(offWhite);
+	color: color(Black);
 }
 
 h1,
@@ -18,45 +18,14 @@ h4,
 h5 {
 	font-weight: 800;
 }
+h1 {
+}
 
 p,
-a,
 ul,
 li {
 	line-height: 1.5;
 	font-size: rem(32);
-	font-weight: 500;
-}
-
-a {
-	text-decoration: none;
-	&.textlink {
-		position: relative;
-		width: 100%;
-		.textlink__text {
-			z-index: 10;
-			position: relative;
-		}
-		&:after {
-			content: '';
-			height: rem(2);
-			width: 100%;
-			position: absolute;
-			bottom: 0px;
-			left: 0px;
-			background-color: color(offWhite);
-			display: inline-block;
-			z-index: 0;
-			transition: 0.3s ease;
-		}
-		&:hover {
-			color: color(Blue);
-			transition: 0.3s ease;
-
-			&:after {
-				height: 100%;
-				transition: 0.3s ease;
-			}
-		}
-	}
+	font-weight: 400;
+	letter-spacing: -1.5px;
 }

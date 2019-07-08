@@ -1,31 +1,57 @@
-a.button {
-	position: relative;
-	text-transform: uppercase;
-	font-size: rem(12);
-	letter-spacing: rem(4);
-	&:after {
-		background-color: color(Red);
-		color: color(Pink);
-		transition: ease 0.3s;
-		content: '';
-		display: flex;
-		width: 110%;
-		height: 4px;
-		position: absolute;
-		z-index: -1;
-		bottom: 0px;
-		opacity: 0.2;
-		left: -6px;
-	}
+a.textlink {
+	line-height: 1.5;
+	font-size: rem(32);
+	font-weight: 400;
+	letter-spacing: -1.5px;
+	text-decoration: none;
+	transition: ease 0.3s;
+
 	&:hover {
+		color: white;
+		transition: ease 0.3s;
+	}
+	.textlink__text {
+		position: relative;
+		z-index: 1;
 		&:after {
-			height: 100%;
+			z-index: -1;
+			content: '';
+			height: 2px;
+			width: 100%;
+			display: flex;
+			position: absolute;
+			background-color: color(Black);
+			left: 0px;
+			bottom: 4px;
+			transition: ease 0.3s;
+		}
+		&:hover {
+			&:after {
+				bottom: 8px;
+				height: 24px;
+				transition: ease 0.3s;
+			}
 		}
 	}
-	&__project {
-		position: absolute;
-		display: flex;
-		height: 100%;
-		width: 100%;
+}
+
+a.button {
+	line-height: 1.5;
+	font-size: rem(14);
+	font-weight: 500;
+	letter-spacing: -0.5px;
+	display: inline-flex;
+	text-decoration: none;
+	border: solid 1px color(Black, 0.2);
+	color: color(Black, 1);
+	padding: 4px 8px;
+	border-radius: 4px;
+	margin: 12px 12px 0px 0px;
+	transition: ease 0.3s;
+
+	&:hover {
+		border: solid 1px color(Black, 1);
+		transition: ease 0.3s;
+		color: color(Black, 0.5);
 	}
 }

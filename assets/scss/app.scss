@@ -17,5 +17,9 @@ $output: set-output(css, true);
 
 body,
 html {
-	background-color: color(Blue);
+	background-color: color(White);
+}
+
+#__layout {
+	overflow: hidden;
 }
