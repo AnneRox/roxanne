@@ -1,57 +1,36 @@
-a.textlink {
-	line-height: 1.5;
-	font-size: rem(32);
-	font-weight: 400;
-	letter-spacing: -1.5px;
+a.button {
+	padding-right: 1rem;
+	padding-top: 2rem;
 	text-decoration: none;
-	transition: ease 0.3s;
-
-	&:hover {
-		color: white;
+	display: inline-flex;
+	.textlink__text {
 		transition: ease 0.3s;
 	}
-	.textlink__text {
-		position: relative;
-		z-index: 1;
-		&:after {
-			z-index: -1;
-			content: '';
-			height: 2px;
-			width: 100%;
-			display: flex;
-			position: absolute;
-			background-color: color(Black);
-			left: 0px;
-			bottom: 4px;
-			transition: ease 0.3s;
-		}
-		&:hover {
-			&:after {
-				bottom: 8px;
-				height: 24px;
-				transition: ease 0.3s;
+	&__white {
+		color: color(White);
+	}
+	&__icon {
+		&--eyes {
+			&:before {
+				content: '';
+				height: 1rem;
+				width: 1rem;
+				margin-right: 0.4rem;
+				display: inline-block;
+				background-image: url('~/images/icon_eyes.png');
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+			}
+			&:hover {
+				&:before {
+					transform: rotateY(180deg) scale(1.25);
+				}
+				.textlink__text {
+					transform: translateX(4px);
+					transition: ease 0.3s;
+				}
 			}
 		}
-	}
-}
-
-a.button {
-	line-height: 1.5;
-	font-size: rem(14);
-	font-weight: 500;
-	letter-spacing: -0.5px;
-	display: inline-flex;
-	text-decoration: none;
-	border: solid 1px color(Black, 0.2);
-	color: color(Black, 1);
-	padding: 4px 8px;
-	border-radius: 4px;
-	margin: 12px 12px 0px 0px;
-	transition: ease 0.3s;
-
-	&:hover {
-		border: solid 1px color(Black, 1);
-		transition: ease 0.3s;
-		color: color(Black, 0.5);
 	}
 }

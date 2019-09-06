@@ -1,8 +1,7 @@
 <template>
 	<header id="header" class="header">
 		<div class="header__FixedContainer">
-			<h5>Roxanne </h5>
-			<h1>Digital designer &amp; web developer</h1>
+			<h1 class="small">🙋‍ Roxanne van den Aakster</h1>
 		</div>
 	</header>
 </template>
@@ -13,24 +12,24 @@
 
 #header {
 	position: relative;
-	top: rem(100);
-	left: rem(100);
+	margin: grid(0 7);
+	@media #{$medium-down} {
+		margin: grid(0 4);
+	}
 	@media #{$small-only} {
-		left: grid(1);
-		top: grid(2);
+		margin: 0rem 2rem;
 	}
 	.header {
 		&__FixedContainer {
-			position: fixed;
-			opacity: 0.1;
-			h1 {
-				font-size: 10vw;
+			position: absolute;
+			margin-top: 4rem;
+			@media #{$small-only} {
+				margin-top: 2rem;
 			}
 		}
 	}
 }
 </style>
-
 
 <script>
 </script>

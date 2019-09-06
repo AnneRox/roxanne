@@ -1,31 +1,46 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-ul,
-li {
-	color: color(Black);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-	font-weight: 800;
-}
 h1 {
+	color: color(White);
+	letter-spacing: -1.5px;
+	font-weight: medium;
+	font-style: italic;
+	line-height: grid(1);
+	font-size: grid(1);
+	@media #{$small-only} {
+		line-height: 2rem;
+		font-size: 2rem;
+	}
+	&.small {
+		font-size: 1rem;
+		letter-spacing: -0.5px;
+		font-weight: normal;
+		font-style: normal;
+	}
 }
 
-p,
-ul,
-li {
-	line-height: 1.5;
-	font-size: rem(32);
-	font-weight: 400;
-	letter-spacing: -1.5px;
+h2 {
+	color: color(NeonBlue);
+	letter-spacing: -1px;
+	font-weight: medium;
+	font-style: italic;
+	line-height: grid(0.5);
+	font-size: grid(0.5);
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+	color: color(DarkBlue);
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 24px;
+}
+
+p {
+	color: color(White);
+	font-size: 1rem;
+	line-height: 24px;
 }
