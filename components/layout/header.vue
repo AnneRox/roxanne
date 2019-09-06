@@ -64,6 +64,9 @@
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: cover;
+					@media #{$medium-down} {
+						display: none;
+					}
 				}
 				&:hover {
 					&:before {

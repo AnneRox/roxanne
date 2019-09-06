@@ -83,6 +83,9 @@ section.intro {
 							background-repeat: no-repeat;
 							background-position: center;
 							background-size: contain;
+							@media #{$medium-down} {
+								display: none;
+							}
 						}
 					}
 				}
