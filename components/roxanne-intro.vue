@@ -9,9 +9,6 @@
 				<a class="button button__white button__icon--eyes" target="_blank" href="https://dribbble.com/AnneRox">
 					<span class="textlink__text">Dribble</span>
 				</a>
-				<a class="button button__white button__icon--eyes" target="_blank" href="https://www.linkedin.com/in/roxannevandenaakster/">
-					<span class="textlink__text">LinkedIn</span>
-				</a>
 			</div>
 		</div>
 	</section>

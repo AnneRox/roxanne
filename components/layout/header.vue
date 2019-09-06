@@ -1,7 +1,7 @@
 <template>
 	<header id="header" class="header">
 		<div class="header__FixedContainer">
-			<h1 class="small"><a href="mailto:rox.ann@hotmail.com"><span>Roxanne van den Aakster</span></a></h1>
+			<h1 class="small"><a target="_blank" href="https://www.linkedin.com/in/roxannevandenaakster/"><span>Roxanne van den Aakster</span></a></h1>
 		</div>
 	</header>
 </template>
