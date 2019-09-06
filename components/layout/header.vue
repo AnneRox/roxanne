@@ -1,7 +1,10 @@
 <template>
 	<header id="header" class="header">
 		<div class="header__FixedContainer">
-			<h1 class="small"><a target="_blank" href="https://www.linkedin.com/in/roxannevandenaakster/"><span>Roxanne van den Aakster</span></a></h1>
+			<h1 class="small"><a target="_blank" href="https://www.linkedin.com/in/roxannevandenaakster/">
+				<span>Roxanne van den Aakster</span>
+				<span class="HideAndSeek">LinkedIn</span>
+			</a></h1>
 		</div>
 	</header>
 </template>
@@ -28,6 +31,7 @@
 			}
 			a {
 				text-decoration: none;
+				position: relative;
 			}
 			h1 {
 				display: flex;
@@ -48,6 +52,12 @@
 				}
 				span {
 					z-index: 1;
+					&.HideAndSeek {
+						opacity: 0;
+						position: absolute;
+						left: 0px;
+						top: 0px;
+					}
 				}
 				&:after {
 					position: absolute;
@@ -76,6 +86,12 @@
 						transform: scale(1);
 						left: -9rem;
 						transition: ease 0.3s;
+					}
+					span {
+						opacity: 0;
+					}
+					span.HideAndSeek {
+						opacity: 1;
 					}
 				}
 			}
