@@ -21,7 +21,7 @@ section.intro {
 	display: flex;
 	.intro {
 		&__content {
-			padding: grid(3.5 0);
+			padding: grid(3.5 0 1 0);
 			@media #{$medium-down} {
 				padding: grid(4 2);
 			}

@@ -14,6 +14,10 @@
 				<p>JAN fluid redesign</p>
 				<p class="credits">© Matise</p>
 			</div>
+			<div class="project__tile project__tile--kalkhoff-2">
+				<p>Kalkhoff responsive navigation</p>
+				<p class="credits">© Matise</p>
+			</div>
 		</div>
 	</section>
 </template>
@@ -21,7 +25,7 @@
 <style lang="scss">
 @import '~tools';
 .work {
-	background-color: color(White);
+	background-color: color(DarkBlue);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -55,6 +59,10 @@
 			}
 		}
 		&__tile {
+			border-radius: 4px;
+			-webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.4);
+			-moz-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.4);
+			box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.4);
 			padding: 1.5rem;
 			position: relative;
 			width: grid(10.8);
@@ -75,6 +83,9 @@
 			}
 			&--kalkhoff {
 				background-image: url('~/images/img_KalkhofffNav.png');
+			}
+			&--kalkhoff-2 {
+				background-image: url('~/images/img_KalkhofffNav2.png');
 			}
 			&--mth {
 				background-image: url('~/images/img_mthHome.png');
